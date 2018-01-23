@@ -1,22 +1,22 @@
-# kemal-vue-chat
+# Kemal + Vue.js Chat Example
 
-TODO: Write a description here
+![Kemal+Vue.js](https://i.imgur.com/qRRzyJZ.gif)
 
-## Installation
+Chat app using [Kemal](http://kemalcr.com/) + [Vue.js](https://vuejs.org/).
 
-TODO: Write installation instructions here
+this is inspired by [React + Kemal Chat Example](https://github.com/f/kemal-react-chat/).
 
-## Usage
+## Install & Run
 
-TODO: Write usage instructions here
-
-## Development
-
-TODO: Write development instructions here
+```terminal
+git clone https://github.com/ChangJoo-Park/kemal-vue-chat.git
+cd kemal-vue-chat && shards install
+crystal src/kemal-vue.chat.cr # or using sentry
+```
 
 ## Contributing
 
-1. Fork it ( https://github.com/[your-github-name]/kemal-vue-chat/fork )
+1. Fork it ( https://github.com/ChangJoo-Park/kemal-vue-chat/fork )
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Commit your changes (git commit -am 'Add some feature')
 4. Push to the branch (git push origin my-new-feature)
@@ -24,4 +24,5 @@ TODO: Write development instructions here
 
 ## Contributors
 
-- [[your-github-name]](https://github.com/[your-github-name]) ChangJoo Park - creator, maintainer
+- [[ChangJoo Park]](https://github.com/ChangJoo-Park) ChangJoo Park - creator, maintainer
+
