@@ -3,6 +3,7 @@ new Vue({
   template: `
     <div v-if="connected">
       <h1 class="title">Kemal, Vue.js chat <small v-if="username"> - {{ username }}</small></h1>
+      <div class="logo-flag"></div>
       <div class="message-wrapper">
         <div class="message-box">
           <div class="message" v-for="message in messages">
