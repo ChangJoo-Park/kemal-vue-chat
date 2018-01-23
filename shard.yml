@@ -11,3 +11,9 @@ targets:
 crystal: 0.24.1
 
 license: MIT
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+
+
