@@ -1,6 +1,7 @@
-require "./kemal-vue-chat/*"
+require "kemal"
 
-# TODO: Write documentation for `Kemal::Vue::Chat`
-module Kemal::Vue::Chat
-  # TODO: Put your code here
+get "/" do
+  "Hello World!"
 end
+
+Kemal.run
