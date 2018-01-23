@@ -1,14 +1,21 @@
 body {
   margin: 0;
   padding: 0;
-width: 100%;
-height: 100%;
-overflow: hidden;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .title {
   text-align: center;
+  background-color: #fff;
+}
+
+.logo-flag {
+  height: 60px;
+  background-image: url('/images/background.png');
+  background-repeat: repeat-x;
 }
 
 .message-wrapper {
@@ -17,8 +24,10 @@ overflow: hidden;
   overflow: auto;
   margin: 0 auto;
   border: 1px solid #333;
+  background-color: #fff;
   box-sizing: border-box;
   padding: 10px;
+  position: relative;
 }
 
 .input-wrapper {
@@ -26,12 +35,14 @@ overflow: hidden;
   height: 50;
   overflow: hidden;
   margin: 0 auto;
+  background-color: #fff;
 }
 
 .message-input {
   width: 100%;
   padding: 4px;
   font-size: 14px;
+  border: 1px solid #333;
 }
 
 .message {
