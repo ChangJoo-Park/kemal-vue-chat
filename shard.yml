@@ -1,0 +1,13 @@
+name: kemal-vue-chat
+version: 0.1.0
+
+authors:
+  - ChangJoo Park <changjoo.park@partner.so>
+
+targets:
+  kemal-vue-chat:
+    main: src/kemal-vue-chat.cr
+
+crystal: 0.24.1
+
+license: MIT
