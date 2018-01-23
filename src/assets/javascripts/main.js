@@ -64,7 +64,7 @@ new Vue({
       this.server.send(`${this.username}:${message}`)
     },
     openWebSocket: function () {
-      const server = new WebSocket(`ws://${location.hostname}:${location.port}`)
+      const server = new WebSocket(`wss://${location.hostname}:${location.port}`)
       server.onmessage = (event) => {
         const serverSentMessages = JSON.parse(event.data)
         this.messages = serverSentMessages.map(m => {
