@@ -29,8 +29,6 @@ new Vue({
     }
   },
   // Life Cycles
-  created: function () {
-  },
   mounted: function () {
     console.log('Hello Vue.js - Kemal Chat')
     this.username = window.prompt('What is your name ?')
